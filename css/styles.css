@@ -2,34 +2,61 @@ body {
   font-size: 10px;
 }
 
-.nav {
-  background-color: #ccc;
-  width: 200px;
-  float: left;
+.left {
+  background-color: #f0f0f0;
+  width: 175px;
+  height: 100vh;
 }
 
-.nav .logo {
+.left .logo {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.nav img {
+.left img {
   width: 120px;
-  margin: 5px 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
-.nav h1 {
+.left h1 {
   margin: 5px auto 0 auto;
   font-family: serif;
   font-size: 2.0rem;
 }
 
-.nav h2 {
+.left h2 {
   margin: 0;
   font-family: serif;
   font-size: 1.2rem;
 }
 
-.nav ul {
+.left ul {
   list-style-type: none;
+  font-size: 1.2rem;
+}
+
+.left h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.left li {
+  color: #30a;
+}
+
+.top {
+  background-color: #f0f0f0;
+  height: 75px;
+  padding-top: 40px;
+}
+
+.top .nav {
+}
+
+.container {
+  margin-left: 175px;
 }

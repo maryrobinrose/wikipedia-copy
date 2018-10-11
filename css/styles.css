@@ -58,15 +58,20 @@ body {
   color: #30a;
 }
 
+.panel {
+  background-color: #f0f0f0;
+  font-size: 1.6rem;
+}
+
+#featured img {
+  width: 120px;
+  float: left;
+}
+
+#featured p {
+}
 /* .top {
   background-color: #f0f0f0;
   height: 75px;
   padding-top: 40px;
-}
-
-.top .nav {
-}
-
-.container {
-  margin-left: 175px;
 } */

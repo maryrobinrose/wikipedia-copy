@@ -61,6 +61,19 @@ body {
 .panel {
   background-color: #f0f0f0;
   font-size: 1.6rem;
+  color: #000;
+}
+
+.panel h2 {
+  color: #000;
+}
+
+.panel-success {
+  background-color: #f0fff0;
+}
+
+.panel-info {
+  background-color: #f0f0ff;
 }
 
 #featured img {
